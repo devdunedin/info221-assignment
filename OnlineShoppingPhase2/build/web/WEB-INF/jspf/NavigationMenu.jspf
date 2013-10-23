@@ -1,0 +1,17 @@
+<%-- any content can be specified here e.g.: --%>
+<%@page import="domain.Customer"%>
+<%@ page pageEncoding="UTF-8" %>
+
+<%
+if(session.getAttribute("customer") != null){
+   Customer custo = (Customer) session.getAttribute("customer");
+   %><p><b> Welcome to the sundae place, <%= custo.getCustomerName()%></b></p><%
+   
+}
+%>
+
+<a href="/OnlineShoppingPhase2/index.jsp">Index</a>
+<a href="/OnlineShoppingPhase2/restricted/ViewProducts.jsp">View Cart/Products</a>
+<a href="/OnlineShoppingPhase2/restricted/CheckOut.jsp">Check Out</a>
+<a href="/OnlineShoppingPhase2/LogoutCustomerServlet">Log Out</a>
+

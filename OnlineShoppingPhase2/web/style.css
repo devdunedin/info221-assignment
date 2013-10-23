@@ -1,0 +1,75 @@
+@import url("forms.css");  /* import forms layout */
+
+body
+{
+
+   
+    background-image: url(sky.JPG);
+ 
+}
+h1
+{
+color:white;
+background-color:cadetblue;
+text-align:center;
+   font-family: 'Times New Roman',Times,serif;
+   font-weight: bolder;
+  
+}
+
+p
+{
+font-family:"Times New Roman";
+font-size:20px;
+}
+
+
+a:link {
+color: blue;
+border:aquamarine;
+border-style: inset;
+text-align:center;
+text-decoration: none;
+font-weight: bolder;
+
+
+}
+
+a {
+color: blue;
+border:aquamarine;
+border-style: inset;
+}
+a:visited {
+color: #610B0B;
+}
+a:hover {
+color: #FF0000;
+}
+a:active {
+color: #FFFFFF;
+}
+
+td {
+text-align:left;
+padding:15px;
+font-family: 'Times New Roman',Times,serif;
+
+    font-weight: bolder;
+
+}
+th {
+background-color: appworkspace;
+}
+
+table {
+margin-left: auto;
+margin-right: auto;
+
+}
+
+td input {
+   
+    font-weight: bolder;
+
+}
